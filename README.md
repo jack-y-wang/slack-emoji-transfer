@@ -13,7 +13,7 @@ _NOTE_: this will require having admin access on the source slack workspace and 
 - Run the Python Script with the following steps which should create the img and gif files of all the emojis in a /emoji folder:
   1. Create a virtual environment `pip -m venv venv`
   2. Activate the virtual environment `source ./venv/bin/activate`
-  3. Install dependencies: `pip install -r requirements.txt`
+  3. Install dependencies: `python install -r requirements.txt`
   4. Run the python script with `python script.py`
 
 #### Step 2
