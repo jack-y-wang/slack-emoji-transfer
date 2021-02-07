@@ -1,6 +1,7 @@
 # Slack Workspace Emoji Transfer
 
 A way to bulk move slack emojis from workspace to another.
+
 _NOTE_: this will require having admin access on the source slack workspace and priviledges to create custom emojis on the destination slack workspace.
 
 ## Steps
@@ -23,7 +24,7 @@ Go to this [slack emoji uploader repo](https://github.com/sgreben/slack-emoji-up
 - Open the zip file
 - In the current directory where you ran the `script.py` file
 - Run the executable that you downloaded with the name of your slack workspace (the portion before .hkn.com) and the token of your destination workspace
-  - `/Users/\<name>/Downloads/slack-emoji-upload -team "hkncandidatessp21" -token "\<token>" imgs/*.*`
+  - `/Users/<name>/Downloads/slack-emoji-upload -team "hkncandidatessp21" -token "<token>" imgs/*.*`
   - in the emoji uploader repo there is an example of uploading with a different sent of flags if there is an issue with the token method
 - Open up the customize emoji page of your workspace and check that emojis are being uploaded
 
