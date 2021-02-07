@@ -9,7 +9,7 @@ _NOTE_: this will require having admin access on the source slack workspace and 
 
 - Obtain a JSON of the emoji list of your source workpsace by going to https://api.slack.com/methods/emoji.list/test and inputting your user token (make sure that you're an admin for this workspace)
 - Copy the `emoji` object into the file `emoji.json`
-- Run the Python Script with the following steps which should create the img and gif files of all the emojis in a emoji/ folder:
+- Run the Python Script with the following steps which should create the img and gif files of all the emojis in a /emoji folder:
   1. Create a virtual environment `pip -m venv venv`
   2. Activate the virtual environment `source ./venv/bin/activate`
   3. Install dependencies: `pip install -r requirements.txt`
